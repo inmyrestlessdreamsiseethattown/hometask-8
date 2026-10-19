@@ -47,7 +47,7 @@ int main(void)
 
     int n;
     double S = 0.0;
-    double term = 1.0;   /* текущий член ряда, начнём с 1 (k = 0) */
+    double term = 1.0;
     int k;
 
     printf("Введите целое n (n >= 0): ");
@@ -63,8 +63,8 @@ int main(void)
 
     /* Суммируем (n + 1) членов: от k = 0 до k = n */
     for (k = 0; k <= n; k++) {
-        S += term;            /* добавляем текущий член */
-        term = -term / 2.0;   /* готовим следующий: смена знака и /2 */
+        S += term;            
+        term = -term / 2.0;  
     }
 
     printf("S = %.6f\n", S);
