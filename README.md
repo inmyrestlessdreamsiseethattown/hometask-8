@@ -61,7 +61,6 @@ int main(void)
         return 1;
     }
 
-    /* Суммируем (n + 1) членов: от k = 0 до k = n */
     for (k = 0; k <= n; k++) {
         S += term;            
         term = -term / 2.0;  
