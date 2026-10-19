@@ -33,7 +33,7 @@
 
 ### Блок-схема
 
-![Блок-схема](block_scheme_1.png)
+![Блок-схема](https://github.com/inmyrestlessdreamsiseethattown/hometask-8/blob/main/block_scheme.drawio(4).png)
 
 ### Код программы
 
